@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Ligle.exe"/>
+    <OBJFILES value="Ligle.obj ..\..\src\GUI\MainForm.obj ..\..\src\icl\zlib\src\adler32.obj 
+      ..\..\src\icl\zlib\src\compress.obj ..\..\src\icl\zlib\src\crc32.obj 
+      ..\..\src\icl\zlib\src\deflate.obj ..\..\src\icl\zlib\src\gzio.obj 
+      ..\..\src\icl\zlib\src\infback.obj ..\..\src\icl\zlib\src\inffast.obj 
+      ..\..\src\icl\zlib\src\inflate.obj ..\..\src\icl\zlib\src\inftrees.obj 
+      ..\..\src\icl\zlib\src\trees.obj ..\..\src\icl\zlib\src\uncompr.obj 
+      ..\..\src\icl\zlib\src\zutil.obj ..\..\src\icl\icl_assert.obj 
+      ..\..\src\icl\icl_classes.obj ..\..\src\icl\icl_handler.obj 
+      ..\..\src\icl\icl_socket.obj ..\..\src\icl\icl_sysutils.obj 
+      ..\..\src\icl\icl_thread.obj ..\..\src\core\app_event.obj 
+      ..\..\src\core\core_block.obj ..\..\src\core\core_channel.obj 
+      ..\..\src\core\core_engine.obj ..\..\src\core\core_ftpchannel.obj 
+      ..\..\src\core\core_httpchannel.obj ..\..\src\core\core_metafile.obj 
+      ..\..\src\core\core_peerchannel.obj ..\..\src\core\core_piece.obj 
+      ..\..\src\core\core_resource.obj ..\..\src\core\core_task.obj 
+      ..\..\src\core\server_peerserver.obj 
+      ..\..\src\core\server_serverchannel.obj ..\..\src\core\server_service.obj 
+      ..\..\src\core\Calc.obj ..\..\src\core\CipherAlgo.obj 
+      ..\..\src\tracker\packet_base.obj ..\..\src\tracker\packet_udp.obj 
+      ..\..\src\tracker\tracker.obj ..\..\src\tracker\trackerpacket.obj 
+      ..\..\src\tracker\trackerserver.obj ..\..\src\tracker\trackerservice.obj 
+      ..\..\src\GUI\NewTask.obj ..\..\src\GUI\ScanDirDlg.obj 
+      ..\..\src\GUI\Alert.obj ..\..\src\GUI\Repeat.obj ..\..\src\GUI\ReDownDlg.obj"/>
+    <RESFILES value="Ligle.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) ..\..\src\GUI\MainForm.dfm ..\..\src\GUI\NewTask.dfm 
+      ..\..\src\GUI\ScanDirDlg.dfm ..\..\src\GUI\Alert.dfm 
+      ..\..\src\GUI\Repeat.dfm ..\..\src\GUI\ReDownDlg.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx.lib RaizeComponentsVclDb.lib RaizeComponentsVcl.lib dclusr.lib 
+      bcb2kaxserver.lib indy.lib dbxcds.lib dclocx.lib soaprtl.lib bcbie.lib 
+      nmfast.lib dbexpress.lib inetdbxpress.lib inetdbbde.lib bcbsmp.lib 
+      dsnapcon.lib dsnapcrba.lib visualdbclx.lib teeqr.lib dss.lib tee.lib 
+      teedb.lib teeui.lib qrpt.lib bdecds.lib cds.lib ibxpress.lib vcldbx.lib 
+      bdertl.lib adortl.lib vcldb.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vcldb.lib adortl.lib bdertl.lib vcldbx.lib ibxpress.lib 
+      cds.lib bdecds.lib qrpt.lib teeui.lib teedb.lib tee.lib dss.lib teeqr.lib 
+      visualdbclx.lib dsnapcrba.lib dsnapcon.lib bcbsmp.lib inetdbbde.lib 
+      inetdbxpress.lib dbexpress.lib nmfast.lib bcbie.lib soaprtl.lib dclocx.lib 
+      dbxcds.lib indy.lib bcb2kaxserver.lib dclusr.lib RaizeComponentsVcl.lib 
+      RaizeComponentsVclDb.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi dclusr.bpi RaizeComponentsVcl.bpi 
+      RaizeComponentsVclDb.bpi"/>
+    <PATHCPP value=".;..\..\src\GUI;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl\zlib\src;..\..\src\icl;..\..\src\icl;..\..\src\icl;..\..\src\icl;..\..\src\icl;..\..\src\icl;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\core;..\..\src\tracker;..\..\src\tracker;..\..\src\tracker;..\..\src\tracker;..\..\src\tracker;..\..\src\tracker;..\..\src\GUI;..\..\src\GUI;..\..\src\GUI;..\..\src\GUI;..\..\src\GUI"/>
+    <PATHPAS value=".;..\..\src\core;..\..\src\core"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Ligle.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Raize\RC4\Lib\BCB6&quot;;&quot;D:\Program Files\Raize\RC4\Lib\BCB6&quot;;E:\RC4\Lib\BCB6;..\..\src\tracker;..\..\src\icl;..\..\src\core;..\..\src\icl\zlib\src;..\..\src\GUI;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files\Raize\RC4\Lib\BCB6&quot;;&quot;D:\Program Files\Raize\RC4\Lib\BCB6&quot;;..\..\src\tracker;..\..\src\icl;..\..\src\core;..\..\src\icl\zlib\src;..\..\src\GUI;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;E:\RC4\Lib\BCB6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files\Raize\RC4\Lib\BCB6&quot; 
+      -I&quot;D:\Program Files\Raize\RC4\Lib\BCB6&quot; -IE:\RC4\Lib\BCB6 
+      -I..\..\src\tracker -I..\..\src\icl -I..\..\src\core 
+      -I..\..\src\icl\zlib\src -I..\..\src\GUI 
+      -I&quot;D:\Program Files\Borland\CBuilder6\Projects&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Ligle.res" FORMNAME="" UNITNAME="Ligle.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Ligle.cpp" FORMNAME="" UNITNAME="Ligle" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\GUI\MainForm.cpp" FORMNAME="MainFrm" UNITNAME="MainForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\adler32.c" FORMNAME="" UNITNAME="adler32.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\compress.c" FORMNAME="" UNITNAME="compress.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\crc32.c" FORMNAME="" UNITNAME="crc32.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\deflate.c" FORMNAME="" UNITNAME="deflate.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\gzio.c" FORMNAME="" UNITNAME="gzio.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\infback.c" FORMNAME="" UNITNAME="infback.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\inffast.c" FORMNAME="" UNITNAME="inffast.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\inflate.c" FORMNAME="" UNITNAME="inflate.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\inftrees.c" FORMNAME="" UNITNAME="inftrees.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\trees.c" FORMNAME="" UNITNAME="trees.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\uncompr.c" FORMNAME="" UNITNAME="uncompr.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\zlib\src\zutil.c" FORMNAME="" UNITNAME="zutil.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\icl_assert.cpp" FORMNAME="" UNITNAME="icl_assert.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\icl_classes.cpp" FORMNAME="" UNITNAME="icl_classes.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\icl_handler.cpp" FORMNAME="" UNITNAME="icl_handler.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\icl_socket.cpp" FORMNAME="" UNITNAME="icl_socket.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\icl_sysutils.cpp" FORMNAME="" UNITNAME="icl_sysutils.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\icl\icl_thread.cpp" FORMNAME="" UNITNAME="icl_thread.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\app_event.cpp" FORMNAME="" UNITNAME="app_event.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_block.cpp" FORMNAME="" UNITNAME="core_block.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_channel.cpp" FORMNAME="" UNITNAME="core_channel.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_engine.cpp" FORMNAME="" UNITNAME="core_engine.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_ftpchannel.cpp" FORMNAME="" UNITNAME="core_ftpchannel.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_httpchannel.cpp" FORMNAME="" UNITNAME="core_httpchannel.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_metafile.cpp" FORMNAME="" UNITNAME="core_metafile.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_peerchannel.cpp" FORMNAME="" UNITNAME="core_peerchannel.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_piece.cpp" FORMNAME="" UNITNAME="core_piece.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_resource.cpp" FORMNAME="" UNITNAME="core_resource.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\core_task.cpp" FORMNAME="" UNITNAME="core_task.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\server_peerserver.cpp" FORMNAME="" UNITNAME="server_peerserver.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\server_serverchannel.cpp" FORMNAME="" UNITNAME="server_serverchannel.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\server_service.cpp" FORMNAME="" UNITNAME="server_service.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\Calc.pas" FORMNAME="" UNITNAME="Calc.pas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\core\CipherAlgo.pas" FORMNAME="" UNITNAME="CipherAlgo.pas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\tracker\packet_base.cpp" FORMNAME="" UNITNAME="packet_base.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\tracker\packet_udp.cpp" FORMNAME="" UNITNAME="packet_udp.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\tracker\tracker.cpp" FORMNAME="" UNITNAME="tracker.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\tracker\trackerpacket.cpp" FORMNAME="" UNITNAME="trackerpacket.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\tracker\trackerserver.cpp" FORMNAME="" UNITNAME="trackerserver.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\tracker\trackerservice.cpp" FORMNAME="" UNITNAME="trackerservice.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\GUI\NewTask.cpp" FORMNAME="NewTaskDlg" UNITNAME="NewTask" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\GUI\ScanDirDlg.cpp" FORMNAME="ScanDir" UNITNAME="ScanDirDlg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\GUI\Alert.cpp" FORMNAME="AlertDlg" UNITNAME="Alert" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\GUI\Repeat.cpp" FORMNAME="OKBottomDlg" UNITNAME="Repeat" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\GUI\ReDownDlg.cpp" FORMNAME="ReDownDlg" UNITNAME="ReDownDlg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2052
+CodePage=936
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

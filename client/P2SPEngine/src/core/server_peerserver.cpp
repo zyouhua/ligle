@@ -1,0 +1,40 @@
+////////////////////////////////////////////////////////////////////////////////
+// P2P Client Eegineering (P2P_CE)
+// peer_connenctionhandler.cpp
+// 最后修改：
+////////////////////////////////////////////////////////////////////////////////
+
+#include "server_peerserver.h"
+
+
+////////////////////////////////////////////////////////////////////////////////
+//CPeerTcpServer全局变量
+
+CPeerTcpServer  PeerTcpServer;
+
+
+////////////////////////////////////////////////////////////////////////////////
+//class CPeerTcpServer
+
+CPeerTcpServer::CPeerTcpServer()
+{
+  m_TcpService = NULL;
+  SetLocalPort(GetFreePort(NPT_TCP, CLIENT_TCP_PORT_START,CHECK_PORT_TIMES));
+}
+
+CPeerTcpServer::~CPeerTcpServer()
+{
+  if(m_TcpService != NULL) delete m_TcpService;
+}
+
+void CPeerTcpServer::OnConnect(CTcpConnection* TcpConnection)
+{
+  m_TcpService->Handle(TcpConnection);
+}
+
+void CPeerTcpServer::SetService(CTcpService* TcpService)
+{
+  m_TcpService = TcpService;
+}
+///////////////////////////////////////////////////////////////////////////////
+
